@@ -1,0 +1,11 @@
+p60
+  正規表現
+  /パターン/
+    /Ruby/ ~= "Ruby"
+    ⇒0
+    /Ruby/ ~= "aRuby"
+    ⇒1
+    /Ruby/ ~= "Diamond"
+    ⇒nil
+    
+    
